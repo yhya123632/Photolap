@@ -17,37 +17,16 @@
 ## 2. إرسال الصور والفيديوهات من جهازك (بموافقتك):
 
 ### المتطلبات:
-- تطبيق [Termux](https://f-droid.org/en/packages/com.termux/)
 - Python 3 و Git
 
 ### الخطوات:
 
-```bash
-pkg update
-pkg install python git nano
-pip install python-telegram-bot
-```
-
 ### إنشاء الملف وتشغيله:
-
-```bash
-git clone https://github.com/YHYA123632/photo-uploader.git
-cd photo-uploader
-python send_all_photos_to_telegram.py
-```
 
 السكربت يرسل كل الصور والفيديوهات الموجودة في `/sdcard/DCIM/Camera` إلى بوت تيليغرام الخاص بك بعد تشغيله يدويًا.
 
----
 
 ## 3. معلومات البوت (للتجربة الشخصية فقط):
 - **اسم المستخدم:** `@yhyawswf`
 - **ID:** `5880561408`
 - **Token:** موجود داخل السكربت بأمان.
-
----
-
-## ملاحظة:
-هذا المشروع لغرض تعليمي فقط، ولا يجوز استخدامه في أي نشاط غير قانوني أو غير أخلاقي. أي استخدام سلبي هو على مسؤولية المستخدم فقط.
-
----
